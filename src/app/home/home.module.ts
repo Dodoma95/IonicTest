@@ -3,8 +3,12 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { MenuController } from '@ionic/angular';
+import { Component } from '@angular/core';
 
 import { HomePage } from './home.page';
+
+
 
 @NgModule({
   imports: [
